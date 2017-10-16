@@ -21,6 +21,8 @@
 		<module>jpress-commons</module>
 		<module>jpress-web-template-jblog</module>
 		<module>jpress-web-template-the3</module>
+		<module>jpress-web-template-coffee</module>
+		<module>jpress-web-template-coffee-v1</module>
 		<module>jpress-web-core</module>
 		<module>jpress-web-admin</module>
 		<module>jpress-web-front</module>

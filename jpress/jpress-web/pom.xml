@@ -46,6 +46,22 @@
 
 		<dependency>
 			<groupId>io.jpress</groupId>
+			<artifactId>jpress-web-template-coffee</artifactId>
+			<version>1.0</version>
+			<type>war</type>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.jpress</groupId>
+			<artifactId>jpress-web-template-coffee-v1</artifactId>
+			<version>1.0</version>
+			<type>war</type>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.jpress</groupId>
 			<artifactId>jpress-web-template-jblog</artifactId>
 			<version>1.0</version>
 			<type>war</type>
@@ -96,7 +112,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
-					<encoding>utf-8</encoding>
+					<resourceEncoding>utf-8</resourceEncoding>
 					<packagingExcludes>WEB-INF/web.xml</packagingExcludes>
 					<overlays>
 						<overlay>
@@ -110,6 +126,14 @@
 						<overlay>
 							<groupId>io.jpress</groupId>
 							<artifactId>jpress-web-template-jblog</artifactId>
+						</overlay>
+						<overlay>
+							<groupId>io.jpress</groupId>
+							<artifactId>jpress-web-template-coffee</artifactId>
+						</overlay>
+						<overlay>
+							<groupId>io.jpress</groupId>
+							<artifactId>jpress-web-template-coffee-v1</artifactId>
 						</overlay>
 						<overlay>
 							<groupId>io.jpress</groupId>
